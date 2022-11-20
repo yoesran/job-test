@@ -14,7 +14,7 @@ function AdditionQuiz() {
 
     useEffect(() => {
         const scores = JSON.parse(localStorage.getItem('scores'));
-        if (scores.length) {
+        if (scores !== null && scores.length) {
             setScores(scores);
         }
     }, []);
