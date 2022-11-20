@@ -1,0 +1,85 @@
+.movie-app {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.movie-app h1 {
+    text-align: center;
+}
+
+.movie-app .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.available-movies {
+    display: flex;
+    gap: 12px;
+}
+
+.available-movies h2 {
+    align-self: center;
+}
+
+.available-movies th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid grey;
+}
+
+.add-movie input {
+    display: block;
+    width: 350px;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.add-movie button {
+    appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3F51B5;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.add-movie button:hover {
+    cursor: pointer;
+}
+
+.movie-option {
+    display: flex;
+    width: 400px;
+}
+
+.pick-movie select {
+    width: 75%;
+    margin: 10px;
+    margin-left: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pick-movie select:hover {
+    cursor: pointer;
+}
+
+.pick-movie button {
+    appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3F51B5;
+    color: white;
+    border-radius: 5px;
+    width: 25%;
+    margin: 10px;
+}
+
+.pick-movie button:hover {
+    cursor: pointer;
+}
